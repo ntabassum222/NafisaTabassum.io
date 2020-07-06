@@ -1,0 +1,324 @@
+/**Global**/
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+.container-fluid a{
+  text-decoration: none;
+}
+.container-fluid{
+  background-color: #e4f0da;
+  padding-top: 35px;
+}
+@media (min-width:320px){
+  .container-fluid{
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+}
+sub {
+    vertical-align: sub;
+    font-size: small;
+}
+.section-header {
+    font-family: "PT Mono",monospace;
+    font-size: 2.00em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    color: Purple;
+    font-weight: bold;
+}
+/**Global**/
+
+
+/**Start Navbar**/
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  text-align: center;
+}
+
+#navbar .navbar-nav li a, #navbar .navbar-header a{
+  font-size: 1.35em;
+  font-family: 'PT Mono', monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000066;
+  text align: center;
+}
+#navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
+  color: #0000ff;
+}
+.css-typing a:hover{
+  color: #0000ff;
+}
+/**End Navbar**/
+
+/**Start Home**/
+#left{
+  font-size: 1.125em;
+  line-height: 1.3em;
+  font-family: "PT Mono",monospace;
+  color: #000000;
+}
+#left #social a{
+  font-size: 0.95em;
+  color: Purple;
+  font-family: "PT Mono",monospace;
+  font-weight: bold;
+}
+#left ul a:hover, .css-typing a, #left #social a:hover {
+  color: #0000ff;
+}
+.css-typing a, #left ul a{
+  color: #808080;
+}
+#left {
+  margin-top: 30px;
+}
+#right {
+  margin-top: -25px;
+}
+#left #social{
+    margin-top: 55px;
+}
+#left ul a:hover {
+  color: #0000ff;
+}
+#left ul a{
+  color: #808080;
+}
+#left .txt{
+  margin-top: 40px;
+}
+
+/**Start Type Writer Effect**/
+.css-typing p {
+  font-family: "PT Mono",monospace;
+  font-size: 0.985em;
+  overflow: hidden;
+  margin: 3px !important;
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  .css-typing p {
+  white-space: nowrap;
+  }
+  .css-typing p:nth-child(1) {
+    width: 680px; /* manually set width */
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(2) {
+    width: 720px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(3) {
+    width: 380px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+}
+/**End Type Writer Effect**/
+/**End Home**/
+
+/**Start Experiences**/
+#experiences {
+    height: auto
+    margin-top: 40px;
+    min-height: 400px;
+}
+@media (min-width:641px)  {
+  .tab {
+    margin-left: 190px;
+  }
+  .tab, .tb {
+    text-align: right;
+  }
+  .tb {
+    margin-left: 323px;
+  }
+}
+#experiences .exp{
+    text-align: left;
+    font-size: 1.15em;
+    line-height: 1.3em;
+    font-family: "PT Mono",monospace;
+    margin-top: 40px;
+}
+#experiences .exps{
+  margin-left:40px;
+  margin-right:40px;
+}
+.exp .name{
+  font-weight: bold;
+  color: #000066;
+}
+/**End Experiences**/
+
+
+/**Start Projects**/
+#projects {
+    min-height: 400px;
+    margin-top: 15px;
+}
+#projects .project {
+    text-align: center;
+    margin-top: 0px;
+    width: 325px;
+    height: 325px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: top 0.2s;
+    transition: top 0.2s;
+}
+@media (min-width:768px){
+  #projects .project{
+    border: 1px solid #edc7b7;
+    margin-bottom: 110px;
+  }
+}
+#projects .description {
+    position: absolute;
+    padding:35px;
+}
+#projects .project-name {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-family: "PT Mono",monospace;
+    text-transform: uppercase;
+}
+#projects .project a {
+  font-family: "PT Mono", monospace;
+  font-weight: bold;
+  color: #000066;
+}
+#projects .project a:hover {
+  color: #0000ff;
+}
+#projects .project-summary {
+    height: 155px;
+    font-size: 1.15em;
+    line-height: 1.3em;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-family: "PT Mono",monospace;
+}
+@media (min-width:961px){
+  #projects .row{
+    margin-left:40px;
+    margin-right:40px;
+  }
+}
+.heart{
+  color: #d400ff;
+}
+.blue{
+  color: #000066;
+  font-weight: bold;
+}
+/**End Projects**/
+
+/**Start Footer**/
+#footer .container-fluid{
+  text-align: center;
+  font-size: 1.0em;
+  background-color:#fae7d9;
+  padding: 15px;
+  font-family: "PT Mono",monospace;
+}
+#footer .container-fluid a{
+  color: #000066;
+}
+#footer .container-fluid a:hover{
+  color: #0000ff;
+}
+/**End Footer**/

@@ -1,0 +1,74 @@
+/**Global**/
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+.container-fluid a{
+  text-decoration: none;
+}
+.container-fluid{
+  background-color: #e4f0da;
+  padding-top: 25px;
+}
+@media (min-width:320px){
+  .container-fluid{
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+}
+sub {
+    vertical-align: sub;
+    font-size: small;
+}
+.section-header {
+    font-family: "PT Mono",monospace;
+    font-size: 2.65em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    color: Purple;
+    font-weight: bold;
+}
+/**Global**/
+
+/**Start Navbar**/
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  text-align: center;
+}
+
+#navbar .navbar-nav li a, #navbar .navbar-header a{
+  font-size: 1.35em;
+  font-family: 'PT Mono', monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000066;
+}
+#navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
+  color: #0000ff;
+}
+.css-typing a:hover{
+  color: #0000ff;
+}
+/**End Navbar**/
+
+
+/**Start Blog**/
+/**End Blog**/
+
+/**Start Footer**/
+#footer .container-fluid{
+  text-align: center;
+  font-size: 1.0em;
+  background-color:#fae7d9;
+  padding: 15px;
+  font-family: "PT Mono",monospace;
+}
+#footer .container-fluid a{
+  color: #0000ff;
+}
+.heart{
+  color: #FF0000;
+}
+/**End Footer**/
